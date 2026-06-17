@@ -9876,7 +9876,7 @@ switch(B.c.a6(s).toLowerCase()){case"-":return s
 case"pending":return"\u0e23\u0e2d\u0e14\u0e33\u0e40\u0e19\u0e34\u0e19\u0e01\u0e32\u0e23"
 case"waiting_driver":return"\u0e23\u0e2d\u0e04\u0e19\u0e02\u0e31\u0e1a"
 case"assigned":return"\u0e21\u0e2d\u0e1a\u0e2b\u0e21\u0e32\u0e22\u0e41\u0e25\u0e49\u0e27"
-case"shipping":return"\u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07"
+case"shipping":return"\u0e23\u0e31\u0e1a\u0e1e\u0e31\u0e2a\u0e14\u0e38\u0e41\u0e25\u0e49\u0e27"
 case"delivered":return"\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08"
 case"approved":return"\u0e2d\u0e19\u0e38\u0e21\u0e31\u0e15\u0e34\u0e41\u0e25\u0e49\u0e27"
 case"cancelled":case"canceled":return"\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01"
@@ -9896,7 +9896,7 @@ if(typeof a=="number")return B.d.an(a)
 return A.dZ(J.a6(a),null)},
 b9R(a){var s=a.toLowerCase()
 if(s==="delivered"||s==="approved"||B.c.n(s,"\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08")||B.c.n(s,"\u0e2d\u0e19\u0e38\u0e21\u0e31\u0e15\u0e34"))return B.q
-if(s==="shipping"||s==="assigned"||B.c.n(s,"\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07"))return B.aN
+if(s==="shipping"||s==="assigned"||B.c.n(s,"\u0e23\u0e31\u0e1a\u0e1e\u0e31\u0e2a\u0e14\u0e38\u0e41\u0e25\u0e49\u0e27")||B.c.n(s,"\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07"))return B.aN
 return B.hb},
 tg:function tg(a,b,c){this.c=a
 this.d=b
@@ -10016,7 +10016,7 @@ return"\u0e04\u0e19\u0e02\u0e31\u0e1a #"+A.h(r==null?"-":r)+" - "+s},
 aNk(a){switch(B.c.a6(a).toLowerCase()){case"pending":return"\u0e23\u0e2d\u0e14\u0e33\u0e40\u0e19\u0e34\u0e19\u0e01\u0e32\u0e23"
 case"waiting_driver":return"\u0e23\u0e2d\u0e04\u0e19\u0e02\u0e31\u0e1a"
 case"assigned":return"\u0e21\u0e2d\u0e1a\u0e2b\u0e21\u0e32\u0e22\u0e41\u0e25\u0e49\u0e27"
-case"shipping":return"\u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07"
+case"shipping":return"\u0e23\u0e31\u0e1a\u0e1e\u0e31\u0e2a\u0e14\u0e38\u0e41\u0e25\u0e49\u0e27"
 case"delivered":return"\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08"
 case"approved":return"\u0e2d\u0e19\u0e38\u0e21\u0e31\u0e15\u0e34\u0e41\u0e25\u0e49\u0e27"
 case"cancelled":case"canceled":return"\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01"
@@ -10919,7 +10919,7 @@ switch(B.c.a6(s).toLowerCase()){case"-":return s
 case"pending":return"\u0e23\u0e2d\u0e14\u0e33\u0e40\u0e19\u0e34\u0e19\u0e01\u0e32\u0e23"
 case"waiting_driver":return"\u0e23\u0e2d\u0e04\u0e19\u0e02\u0e31\u0e1a"
 case"assigned":return"\u0e21\u0e2d\u0e1a\u0e2b\u0e21\u0e32\u0e22\u0e41\u0e25\u0e49\u0e27"
-case"shipping":return"\u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07"
+case"shipping":return"\u0e23\u0e31\u0e1a\u0e1e\u0e31\u0e2a\u0e14\u0e38\u0e41\u0e25\u0e49\u0e27"
 case"delivered":return"\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08"
 case"approved":return"\u0e2d\u0e19\u0e38\u0e21\u0e31\u0e15\u0e34\u0e41\u0e25\u0e49\u0e27"
 case"cancelled":case"canceled":return"\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01"
@@ -10939,7 +10939,7 @@ if(typeof a=="number")return B.d.an(a)
 return A.dZ(J.a6(a),null)},
 aVW(a){var s=a.toLowerCase()
 if(s==="delivered"||B.c.n(s,"\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08")||B.c.n(s,"\u0e2a\u0e48\u0e07\u0e41\u0e25\u0e49\u0e27"))return B.q
-if(s==="shipping"||s==="assigned"||s==="waiting_driver"||B.c.n(s,"\u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07")||B.c.n(s,"\u0e23\u0e2d\u0e04\u0e19\u0e02\u0e31\u0e1a"))return B.aN
+if(s==="shipping"||s==="assigned"||s==="waiting_driver"||B.c.n(s,"\u0e23\u0e31\u0e1a\u0e1e\u0e31\u0e2a\u0e14\u0e38\u0e41\u0e25\u0e49\u0e27")||B.c.n(s,"\u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07")||B.c.n(s,"\u0e23\u0e2d\u0e04\u0e19\u0e02\u0e31\u0e1a"))return B.aN
 return B.hb},
 tX:function tX(a,b,c){this.c=a
 this.d=b
@@ -55158,7 +55158,7 @@ alG(a){var s,r,q=this
 if(!t.f.b(a))return!1
 if(q.alv(a))return q.AY(a)||q.Vg(a)
 s=q.rk(a,"status")
-if(s==="shipping"||s==="assigned"||s==="delivered"||s==="cancelled"||s==="canceled"||s==="failed"||s==="returned"||s==="\u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07"||s==="\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08"||s==="\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01"||s==="\u0e44\u0e21\u0e48\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08"||B.c.n(s,"\u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07")||B.c.n(s,"\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08")||B.c.n(s,"\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01")){q.a.toString
+if(s==="shipping"||s==="assigned"||s==="delivered"||s==="cancelled"||s==="canceled"||s==="failed"||s==="returned"||s==="\u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07"||s==="\u0e23\u0e31\u0e1a\u0e1e\u0e31\u0e2a\u0e14\u0e38\u0e41\u0e25\u0e49\u0e27"||s==="\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08"||s==="\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01"||s==="\u0e44\u0e21\u0e48\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08"||B.c.n(s,"\u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07")||B.c.n(s,"\u0e23\u0e31\u0e1a\u0e1e\u0e31\u0e2a\u0e14\u0e38\u0e41\u0e25\u0e49\u0e27")||B.c.n(s,"\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08")||B.c.n(s,"\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01")){q.a.toString
 r=q.akW(a)
 return r}return!1},
 alv(a){var s,r,q,p,o,n,m,l,k=null,j="shipment_status",i="shipmentStatus",h=J.Y(a),g=h.h(a,"request"),f=this.dr(g==null?h.h(a,"requests"):g)
@@ -55602,7 +55602,7 @@ return A.o(o.m3(),$async$ww)
 case 7:m=o.c
 if(m!=null){m=m.a2(t.O)
 m.toString
-m.f.e4(A.f5(null,null,null,new A.p(4279592384),null,B.x,null,A.b0(A.a([A.bv(B.qI,B.h,null,null),A.aB(null,null,8),A.Q("\u0e01\u0e33\u0e2b\u0e19\u0e14\u0e04\u0e19\u0e02\u0e31\u0e1a\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08 \xb7 \u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07",null,null,null,null,null,null,null)],t.p),B.o,B.k,B.m,null),null,B.av,null,null,null,null,null,null,null,null,null))}q=1
+m.f.e4(A.f5(null,null,null,new A.p(4279592384),null,B.x,null,A.b0(A.a([A.bv(B.qI,B.h,null,null),A.aB(null,null,8),A.Q("\u0e01\u0e33\u0e2b\u0e19\u0e14\u0e04\u0e19\u0e02\u0e31\u0e1a\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08 \xb7 \u0e23\u0e31\u0e1a\u0e1e\u0e31\u0e2a\u0e14\u0e38\u0e41\u0e25\u0e49\u0e27",null,null,null,null,null,null,null)],t.p),B.o,B.k,B.m,null),null,B.av,null,null,null,null,null,null,null,null,null))}q=1
 s=5
 break
 case 3:q=2
@@ -55967,7 +55967,7 @@ if(r==null)r=""
 if(r.length===0)return"\u0e44\u0e21\u0e48\u0e17\u0e23\u0e32\u0e1a\u0e2a\u0e16\u0e32\u0e19\u0e30"
 return A.aNk(r)},
 Xi(a){switch(a){case"\u0e21\u0e2d\u0e1a\u0e2b\u0e21\u0e32\u0e22\u0e41\u0e25\u0e49\u0e27":return 10
-case"\u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07":return 20
+case"\u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07":case"\u0e23\u0e31\u0e1a\u0e1e\u0e31\u0e2a\u0e14\u0e38\u0e41\u0e25\u0e49\u0e27":return 20
 case"\u0e16\u0e36\u0e07\u0e2a\u0e32\u0e02\u0e32\u0e15\u0e49\u0e19\u0e17\u0e32\u0e07":return 30
 case"\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08":return 40
 case"\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01":return 50
@@ -56029,7 +56029,7 @@ A.azc.prototype={
 $1(a){return B.b.n(A.a(["\u0e23\u0e2d\u0e04\u0e19\u0e02\u0e31\u0e1a","\u0e16\u0e36\u0e07\u0e2a\u0e32\u0e02\u0e32\u0e1b\u0e25\u0e32\u0e22\u0e17\u0e32\u0e07"],t.s),J.E(a,"status"))},
 $S:10}
 A.azd.prototype={
-$1(a){return B.b.n(A.a(["delivered","\u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07"],t.s),J.E(a,"status"))},
+$1(a){return B.b.n(A.a(["delivered","\u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07","\u0e23\u0e31\u0e1a\u0e1e\u0e31\u0e2a\u0e14\u0e38\u0e41\u0e25\u0e49\u0e27"],t.s),J.E(a,"status"))},
 $S:10}
 A.aze.prototype={
 $1(a){var s,r,q,p
@@ -56559,7 +56559,7 @@ else o=!0
 else o=!0
 n=o}else n=!0
 else n=!1
-switch(a1){case"\u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07":m=new A.p(d)
+switch(a1){case"\u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07":case"\u0e23\u0e31\u0e1a\u0e1e\u0e31\u0e2a\u0e14\u0e38\u0e41\u0e25\u0e49\u0e27":case"shipping":m=new A.p(d)
 break
 case"assigned":m=new A.p(4285143962)
 break
@@ -58221,7 +58221,7 @@ s===$&&A.b()
 s=A.ay(s,A.a(["status"],t.s))
 r=s==null?j:B.c.a6(J.a6(s)).toLowerCase()
 q=r==null?j:B.c.a6(r).toLowerCase()
-p=q==="shipping"||q==="\u0e01\u0e33\u0e25\u0e31\u0e07\u0e08\u0e31\u0e14\u0e2a\u0e48\u0e07"
+p=q==="shipping"||q==="\u0e23\u0e31\u0e1a\u0e1e\u0e31\u0e2a\u0e14\u0e38\u0e41\u0e25\u0e49\u0e27"
 o=A.b98(r)
 if(!A.aVT(k.ax)&&!o)return j
 n=k.Ve(b)
